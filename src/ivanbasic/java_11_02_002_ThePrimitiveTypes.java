@@ -14,10 +14,10 @@ public class java_11_02_002_ThePrimitiveTypes implements Lesson {
 		System.out.println("MIN_VALUE MAX_VALUE"  );		
 		System.out.println( );			
 		System.out.println("boolean " + Boolean.FALSE 		+"   "+ Boolean.TRUE );
-		System.out.println("byte 	" + Byte.MIN_VALUE 		+"   "+ Byte.MAX_VALUE );
-		System.out.println("short 	" + Short.MIN_VALUE 	+"   "+ Short.MAX_VALUE );
-		System.out.println("int 	" + Integer.MIN_VALUE 	+"   "+ Integer.MAX_VALUE );
-		System.out.println("long 	" + Long.MIN_VALUE 		+"   "+ Long.MAX_VALUE );
+		System.out.println("byte 	" + Byte.MIN_VALUE 		+"   "+ Byte.MAX_VALUE     + " =2^"+log2(Byte.MAX_VALUE ) );
+		System.out.println("short 	" + Short.MIN_VALUE 	+"   "+ Short.MAX_VALUE    + " =2^"+log2(Short.MAX_VALUE ) );
+		System.out.println("int 	" + Integer.MIN_VALUE 	+"   "+ Integer.MAX_VALUE  + " =2^"+log2(Integer.MAX_VALUE ) );
+		System.out.println("long 	" + Long.MIN_VALUE 		+"   "+ Long.MAX_VALUE     + " =2^"+log2(Long.MAX_VALUE ) );
 		System.out.println("float 	" + Float.MIN_VALUE 	+"   "+ Float.MAX_VALUE );
 		System.out.println("double 	" + Double.MIN_VALUE 	+"   "+ Double.MAX_VALUE );
 		System.out.println("char    " + (int) Character.MIN_VALUE +"   "+(int)  Character.MAX_VALUE );
@@ -38,10 +38,11 @@ public class java_11_02_002_ThePrimitiveTypes implements Lesson {
 		
 		
 		
-	}	
- 
- 
- 
+	}
+
+	public static double log2(long x) {
+		return   (Math.log(x) / Math.log(2));
+	}
 }
 
 
