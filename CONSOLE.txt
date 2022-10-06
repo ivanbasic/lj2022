@@ -32,10 +32,10 @@ Lesson#2 11.00.002.Version
 ===============================================================
 Lesson#3 11.01.001.WelcomeToJava
 ===============================================================
-random 0-9: 4
-java.utl.Date: Thu Oct 06 14:31:35 CEST 2022
+random 0-9: 7
+java.utl.Date: Thu Oct 06 20:55:46 CEST 2022
 java.sql.Date: 1970-01-01
-ivanbasic.FieldsAndMethodsCanGoInEitherOrder@80503
+ivanbasic.FieldsAndMethodsCanGoInEitherOrder@4b553d26
 
 ===============================================================
 Lesson#4 11.02.001.CreatingObjects
@@ -118,7 +118,7 @@ double
 ===============================================================
 Lesson#8 11.02.010.ReferenceTypes
 ===============================================================
-Thu Oct 06 14:31:35 CEST 2022
+Thu Oct 06 20:55:46 CEST 2022
 How are you?
 null
 
@@ -240,7 +240,7 @@ Set of Anything's
 true
 true
 true
-[ivanbasic.Anything@2de8284b, ivanbasic.Anything@396e2f39, ivanbasic.Anything@a74868d]
+[ivanbasic.Anything@396e2f39, ivanbasic.Anything@12c8a2c0, ivanbasic.Anything@a74868d]
 
 Set of Something's, overrides java.lang.Object.hashCode, overrides java.lang.Object.equals
 true
@@ -256,7 +256,7 @@ koala bamboo
 cat bird
 cow grass
 {koala=bamboo, cat=bird, cow=grass}
-{ivanbasic.AnythingAgain@7276c8cd=102, ivanbasic.AnythingAgain@544a2ea6=202}
+{ivanbasic.AnythingAgain@544a2ea6=102, ivanbasic.AnythingAgain@2e3fc542=202}
 
 ===============================================================
 Lesson#20 11.06.010.Lambdas
@@ -298,11 +298,11 @@ accepting more *7, *8
 ===============================================================
 Lesson#23 11.06.040.Supplier
 ===============================================================
-random #1 = 1
+random #1 = 5
 random #2 = 3
-random #3 = 4
-random #4 = 6
-random #5 = 4
+random #3 = 6
+random #4 = 2
+random #5 = 2
 
 ===============================================================
 Lesson#24 11.06.050.Comparator
@@ -328,7 +328,19 @@ floppy
 hoppy
 
 ===============================================================
-Lesson#26 11.07.030.WorkingWithVarargs
+Lesson#26 11.06.100.LambdasAgain
+===============================================================
+integers=[10, 7, 15, 3, 30, 4, 40, 15, 100]
+
+USING IN STREAMS:
+Predicate, filter(). evenInts=[10, 30, 4, 40, 100]
+Consumer, forEach(). printAll=10 7 15 3 30 4 40 15 100
+Comparator, sorted(). sortedInts=[3, 4, 7, 10, 15, 15, 30, 40, 100]
+BinaryOperator , reduce(). sum=224
+Function, map(). IntToStr=[<10>, <7>, <15>, <3>, <30>, <4>, <40>, <15>, <100>]
+
+===============================================================
+Lesson#27 11.07.030.WorkingWithVarargs
 ===============================================================
 walk(int start, int... nums), length of nums:
 0
@@ -337,7 +349,7 @@ walk(int start, int... nums), length of nums:
 2
 
 ===============================================================
-Lesson#27 11.07.050.PassingDataAmongMethods
+Lesson#28 11.07.050.PassingDataAmongMethods
 ===============================================================
 int       parInt	=1
 String    parString	=a
@@ -355,21 +367,21 @@ int[]     parArray	=[12345678, 2]
 SomeClass parClass	=9999999
 
 ===============================================================
-Lesson#28 11.07.070.OverloadingMethods
+Lesson#29 11.07.070.OverloadingMethods
 ===============================================================
 142
 ===============================================================
-Lesson#29 11.07.090.EncapsulatingData
+Lesson#30 11.07.090.EncapsulatingData
 ===============================================================
 Just private, getter & setter
 
 ===============================================================
-Lesson#30 11.08.010.This
+Lesson#31 11.08.010.This
 ===============================================================
 The color is desolate
 
 ===============================================================
-Lesson#31 11.08.020.Super
+Lesson#32 11.08.020.Super
 ===============================================================
 child doIt
 parent doIt
@@ -377,14 +389,14 @@ child size
 parent size
 
 ===============================================================
-Lesson#32 11.08.025.ConsCallsConsThis
+Lesson#33 11.08.025.ConsCallsConsThis
 ===============================================================
 Cons II 1 0
 CONS I
 Cons II 1 2
 
 ===============================================================
-Lesson#33 11.08.030.PrivateConstructor
+Lesson#34 11.08.030.PrivateConstructor
 ===============================================================
 Calling private constructor 789+AAAAAA
 ...from public cons
@@ -394,17 +406,17 @@ from (static) method:
 Calling private constructor 45+MN
 
 ===============================================================
-Lesson#34 11.08.035.SuperCons
+Lesson#35 11.08.035.SuperCons
 ===============================================================
 first
 second
 
 ===============================================================
-Lesson#35 11.08.100.ClassInitialization
+Lesson#36 11.08.100.ClassInitialization
 ===============================================================
 
 ===============================================================
-Lesson#36 11.08.110.InstanceInitialization
+Lesson#37 11.08.110.InstanceInitialization
 ===============================================================
 Creating new InstanceC extends InstanceB extends InstanceA
 Constructor, InstanceA
@@ -412,36 +424,36 @@ Constructor, InstanceB
 Constructor, InstanceC
 
 ===============================================================
-Lesson#37 11.08.500.OverridingMethod
+Lesson#38 11.08.500.OverridingMethod
 ===============================================================
 Number Of Humps = 1
 Number Of Humps = 2
 Number Of Humps = 2
 
 ===============================================================
-Lesson#38 11.08.510.OverridingGenericMethod
+Lesson#39 11.08.510.OverridingGenericMethod
 ===============================================================
 Anteater
 
 ===============================================================
-Lesson#39 11.08.520.GenericReturnTypes
+Lesson#40 11.08.520.GenericReturnTypes
 ===============================================================
 
 ===============================================================
-Lesson#40 11.08.530.RedeclaringPrivateMethods
+Lesson#41 11.08.530.RedeclaringPrivateMethods
 ===============================================================
 private doIt, PrivateAny.
 private doIt, PrivateRyan. A Separate and independent method. Not an overridden version.
 
 ===============================================================
-Lesson#41 11.08.540.HidingStaticMethods
+Lesson#42 11.08.540.HidingStaticMethods
 ===============================================================
 You can't mix static and non-static methods
 public static void doIt() Bear
 public static void doIt() Panda. >>Hiding<<. Tis is not considered an overridden method.
 
 ===============================================================
-Lesson#42 11.08.900.ReviewQuestions
+Lesson#43 11.08.900.ReviewQuestions
 ===============================================================
 50
 SpiderSpiderArthropod
@@ -454,32 +466,32 @@ Child method setName=Olivia
 Olivia Sophia
 
 
-Class1 c11 ivanbasic.Class1@2fd66ad3
+Class1 c11 ivanbasic.Class1@5123a213
 method doIt Class1
 instanceVariable Class1
 
-Class1 c12 ivanbasic.Class2@5d11346a
+Class1 c12 ivanbasic.Class2@52525845
 method doIt Class2
 instanceVariable Class1
 
-Class2 c22 ivanbasic.Class2@7a36aefa
+Class2 c22 ivanbasic.Class2@3b94d659
 method doIt Class2
 instanceVariable Class2
 
 casting c22....
-Class1 c100 ivanbasic.Class2@7a36aefa
+Class1 c100 ivanbasic.Class2@3b94d659
 method doIt Class2
 instanceVariable Class1
 
 
 ===============================================================
-Lesson#43 11.09.100.AbstractClasses
+Lesson#44 11.09.100.AbstractClasses
 ===============================================================
-Constructor AbstractSub0 ivanbasic.Concrete0@17211155
-Constructor AbstractSub0 ivanbasic.Concrete1@b3d7190
+Constructor AbstractSub0 ivanbasic.Concrete0@24b1d79b
+Constructor AbstractSub0 ivanbasic.Concrete1@68ceda24
 
 ===============================================================
-Lesson#44 11.09.200.Interfaces
+Lesson#45 11.09.200.Interfaces
 ===============================================================
 doIt is implemented.
 default method
@@ -488,15 +500,15 @@ static field of TheInterface
 interface ti instanceof class ChildOf? true
 
 ===============================================================
-Lesson#45 11.09.900.ReviewQuestions
+Lesson#46 11.09.900.ReviewQuestions
 ===============================================================
 
 ===============================================================
-Lesson#46 11.10.100.Exceptions
+Lesson#47 11.10.100.Exceptions
 ===============================================================
 
 ===============================================================
-Lesson#47 11.10.200.Exceptions
+Lesson#48 11.10.200.Exceptions
 ===============================================================
 try 2
 finally 2
@@ -512,7 +524,7 @@ This catch block is optional
 This finally block is optional
 
 ===============================================================
-Lesson#48 11.10.300.Exceptions
+Lesson#49 11.10.300.Exceptions
 ===============================================================
 Without trow
 1
@@ -531,7 +543,7 @@ In return line, -3
 Returned -3
 
 ===============================================================
-Lesson#49 11.11.100.Modules
+Lesson#50 11.11.100.Modules
 ===============================================================
 eclipse: project root >configure>create module-info.java
 
@@ -539,7 +551,7 @@ exports pckg (to  mdl)
 requires, requires transitive mdl
 
 ===============================================================
-Lesson#50 11.21.100.Enums
+Lesson#51 11.21.100.Enums
 ===============================================================
 SUMMER 2
 
@@ -550,30 +562,30 @@ FALL 3
 
 
 ===============================================================
-Lesson#51 11.21.110.UsingEnumsInSwitchStatements
+Lesson#52 11.21.110.UsingEnumsInSwitchStatements
 ===============================================================
 default
 
 ===============================================================
-Lesson#52 11.21.120.EnumConstructor
+Lesson#53 11.21.120.EnumConstructor
 ===============================================================
 the constructor argument list match the declaration-of-constants argument list.
 but Selikoff didn't explain why
 
 ===============================================================
-Lesson#53 11.21.200.NestedClasses4Flavors
+Lesson#54 11.21.200.NestedClasses4Flavors
 ===============================================================
-constructor Outer, str=out, class=ivanbasic.Outer@16022d9d
-constructor Inner, str=non-static-inn, class=ivanbasic.Outer$Inner@7e9a5fbe
-constructor Inner, str=non-static-inn, class=ivanbasic.Outer$Inner@44a3ec6b
-constructor StaticInner, str=static inn, class=ivanbasic.Outer$StaticInner@71623278
-constructor StaticInner, str=static inn, class=ivanbasic.Outer$StaticInner@768b970c
+constructor Outer, str=out, class=ivanbasic.Outer@4bb4de6a
+constructor Inner, str=non-static-inn, class=ivanbasic.Outer$Inner@7ba18f1b
+constructor Inner, str=non-static-inn, class=ivanbasic.Outer$Inner@2f8f5f62
+constructor StaticInner, str=static inn, class=ivanbasic.Outer$StaticInner@1068e947
+constructor StaticInner, str=static inn, class=ivanbasic.Outer$StaticInner@7dc222ae
 Outer method doIt
-constructor Local, str=class-Local-in-method-doIt, class=ivanbasic.Outer$1Local@5a4041cc
-constructor AbsInner, str=absin, class=ivanbasic.Outer$1@15b3e5b
+constructor Local, str=class-Local-in-method-doIt, class=ivanbasic.Outer$1Local@aecb35a
+constructor AbsInner, str=absin, class=ivanbasic.Outer$1@5fcd892a
 
 ===============================================================
-Lesson#54 11.21.300.InterfaceDefaultMethod
+Lesson#55 11.21.300.InterfaceDefaultMethod
 ===============================================================
 cat as run, speed=7
 cat as walk, speed=7
@@ -581,12 +593,12 @@ cats inherited walk speed=5
 cats inherited run speed=10
 
 ===============================================================
-Lesson#55 11.21.400.InterfaceStaticMethod
+Lesson#56 11.21.400.InterfaceStaticMethod
 ===============================================================
 Bunny, hop height=8
 
 ===============================================================
-Lesson#56 11.21.500.InterfacePrivatecMethod
+Lesson#57 11.21.500.InterfacePrivatecMethod
 ===============================================================
 
 Monday
@@ -602,7 +614,7 @@ You have 5 hours left to make the appointment
 You're late!
 
 ===============================================================
-Lesson#57 11.21.600.InterfacePrivatecStaticMethod
+Lesson#58 11.21.600.InterfacePrivatecStaticMethod
 ===============================================================
 
 Inhale
@@ -618,12 +630,12 @@ Performing stroke: butterfly
 Exhale
 
 ===============================================================
-Lesson#58 11.21.700.IntroducingFunctionalProgramming
+Lesson#59 11.21.700.IntroducingFunctionalProgramming
 ===============================================================
 Same as chapter 6
 
 ===============================================================
-Lesson#59 11.22.100.Annotations
+Lesson#60 11.22.100.Annotations
 ===============================================================
 
 class annotations
@@ -637,51 +649,51 @@ all fields annotations
 @ivanbasic.Special() for private int[] ivanbasic.Tornado.t3
 
 ===============================================================
-Lesson#60 11.23.000.FunctionalInterface3Ways
+Lesson#61 11.23.000.FunctionalInterface3Ways
 ===============================================================
-1. using class      :ivanbasic.SpeakUsingClass@4e4aea35
-2. using lambda     :ivanbasic.java_11_23_000_FunctionalInterface3Ways$$Lambda$49/0x000000080012f840@1442d7b5
-3. method reference :ivanbasic.java_11_23_000_FunctionalInterface3Ways$$Lambda$50/0x000000080012fc40@1efee8e7
+1. using class      :ivanbasic.SpeakUsingClass@45afc369
+2. using lambda     :ivanbasic.java_11_23_000_FunctionalInterface3Ways$$Lambda$55/0x000000080012fc40@799d4f69
+3. method reference :ivanbasic.java_11_23_000_FunctionalInterface3Ways$$Lambda$56/0x0000000800138040@49c43f4e
 
 ===============================================================
-Lesson#61 11.23.100.UsingMethodReferences4formats
+Lesson#62 11.23.100.UsingMethodReferences4formats
 ===============================================================
 Static methods
-ivanbasic.java_11_23_100_UsingMethodReferences4formats$$Lambda$51/0x000000080012f040@76a4d6c
-ivanbasic.java_11_23_100_UsingMethodReferences4formats$$Lambda$52/0x000000080012f440@6cc7b4de
+ivanbasic.java_11_23_100_UsingMethodReferences4formats$$Lambda$57/0x0000000800138440@12028586
+ivanbasic.java_11_23_100_UsingMethodReferences4formats$$Lambda$58/0x0000000800138840@69a10787
 
 Instance methods on a particular instance
-ivanbasic.java_11_23_100_UsingMethodReferences4formats$$Lambda$53/0x000000080012e840@679b62af
-ivanbasic.java_11_23_100_UsingMethodReferences4formats$$Lambda$54/0x000000080012ec40@d6da883
+ivanbasic.java_11_23_100_UsingMethodReferences4formats$$Lambda$59/0x0000000800138c40@2bbaf4f0
+ivanbasic.java_11_23_100_UsingMethodReferences4formats$$Lambda$60/0x0000000800139040@70beb599
 
 Instance methods on a parameter to be determined at runtime
-ivanbasic.java_11_23_100_UsingMethodReferences4formats$$Lambda$55/0x000000080012e040@799d4f69
-ivanbasic.java_11_23_100_UsingMethodReferences4formats$$Lambda$56/0x000000080012e440@290dbf45
+ivanbasic.java_11_23_100_UsingMethodReferences4formats$$Lambda$61/0x0000000800139440@32a068d1
+ivanbasic.java_11_23_100_UsingMethodReferences4formats$$Lambda$62/0x0000000800139840@365c30cc
 
 Constructors
-ivanbasic.java_11_23_100_UsingMethodReferences4formats$$Lambda$57/0x0000000800138040@17776a8
-ivanbasic.java_11_23_100_UsingMethodReferences4formats$$Lambda$58/0x0000000800138440@2d127a61
+ivanbasic.java_11_23_100_UsingMethodReferences4formats$$Lambda$63/0x0000000800139c40@4148db48
+ivanbasic.java_11_23_100_UsingMethodReferences4formats$$Lambda$64/0x000000080013a040@7fad8c79
 
 ===============================================================
-Lesson#62 11.23.200.UsingTheDiamondOperator
+Lesson#63 11.23.200.UsingTheDiamondOperator
 ===============================================================
 
 ===============================================================
-Lesson#63 11.23.300.ListAndLambda
+Lesson#64 11.23.300.ListAndLambda
 ===============================================================
 [1, 2, 3, 4, 5]
 [2, 4, 6, 8, 10]
 
 ===============================================================
-Lesson#64 11.23.400.WorkingWithGenerics
+Lesson#65 11.23.400.WorkingWithGenerics
 ===============================================================
 
 ===============================================================
-Lesson#65 11.23.500.Wildcard
+Lesson#66 11.23.500.Wildcard
 ===============================================================
 
 ===============================================================
-Lesson#66 11.24.100.BuiltInFunctionalInterfaces
+Lesson#67 11.24.100.BuiltInFunctionalInterfaces
 ===============================================================
 Annie
 true
@@ -691,14 +703,14 @@ true
 CHIRP
 CHIRP
 
-ivanbasic.java_11_24_100_BuiltInFunctionalInterfaces$$Lambda$60/0x0000000800138c40@1e9e725a
-ivanbasic.java_11_24_100_BuiltInFunctionalInterfaces$$Lambda$64/0x000000080013f040@15d9bc04
-ivanbasic.java_11_24_100_BuiltInFunctionalInterfaces$$Lambda$66/0x000000080013e840@473b46c3
-ivanbasic.java_11_24_100_BuiltInFunctionalInterfaces$$Lambda$68/0x000000080013e040@516be40f
-ivanbasic.java_11_24_100_BuiltInFunctionalInterfaces$$Lambda$70/0x000000080013d840@3c0a50da
+ivanbasic.java_11_24_100_BuiltInFunctionalInterfaces$$Lambda$66/0x000000080013a840@23a5fd2
+ivanbasic.java_11_24_100_BuiltInFunctionalInterfaces$$Lambda$70/0x000000080013fc40@78a2da20
+ivanbasic.java_11_24_100_BuiltInFunctionalInterfaces$$Lambda$72/0x000000080013f440@dd3b207
+ivanbasic.java_11_24_100_BuiltInFunctionalInterfaces$$Lambda$74/0x000000080013ec40@551bdc27
+ivanbasic.java_11_24_100_BuiltInFunctionalInterfaces$$Lambda$76/0x000000080013e440@58fdd99
 
 ===============================================================
-Lesson#67 11.24.200.ReturningAnOptional
+Lesson#68 11.24.200.ReturningAnOptional
 ===============================================================
 false
 true
@@ -712,22 +724,22 @@ op1: 23
 op2 is empty
 
 ===============================================================
-Lesson#68 11.24.300.FiniteStreams
+Lesson#69 11.24.300.FiniteStreams
 ===============================================================
-java.util.stream.ReferencePipeline$Head@dd3b207
-java.util.stream.ReferencePipeline$Head@551bdc27
-java.util.stream.ReferencePipeline$Head@58fdd99
-java.util.stream.ReferencePipeline$Head@6b1274d2
-java.util.stream.ReferencePipeline$Head@7bc1a03d
+java.util.stream.ReferencePipeline$Head@3d36e4cd
+java.util.stream.ReferencePipeline$Head@6a472554
+java.util.stream.ReferencePipeline$Head@7ff2a664
+java.util.stream.ReferencePipeline$Head@525b461a
+java.util.stream.ReferencePipeline$Head@58c1c010
 
 ===============================================================
-Lesson#69 11.24.400.InfiniteStreams
+Lesson#70 11.24.400.InfiniteStreams
 ===============================================================
 1 3 5 7 9 11 13 15 17 19 21 23 25 27 29 31 33 35 37 39 41 43 45 47 49
 2 4 6 8 10 12 14 16 18 20 22 24 26 28 30 32 34 36 38 40 42 44 46 48 50
 
 ===============================================================
-Lesson#70 11.24.500.UsingCommonTerminalOperations
+Lesson#71 11.24.500.UsingCommonTerminalOperations
 ===============================================================
 FINITY
 forEach: 1 3 5 7 9 11 13 15 17 19 21 23 25 27 29 31 33 35 37 39 41 43 45 47 49
@@ -748,46 +760,43 @@ skip limit forEach : 7 9 11 13
 end
 
 ===============================================================
-Lesson#71 11.24.600.PrimitiveStreams
+Lesson#72 11.24.600.PrimitiveStreams
 ===============================================================
 intStream.average()=4.5
 
 ===============================================================
-Lesson#72 11.24.700.AdvancedStreamPipelineConcepts
+Lesson#73 11.24.700.AdvancedStreamPipelineConcepts
 ===============================================================
 
 ===============================================================
-Lesson#73 11.25.100.Exceptions
+Lesson#74 11.25.100.Exceptions
 ===============================================================
 try 1
  catch ivanbasic.ExceptionYellow
  finaly 1
 try 2
- catch ivanbasic.ExceptionYellow
+ catch ivanbasic.ExceptionPink
  finaly 2
 try 3
- catch ivanbasic.ExceptionPink
+ catch ivanbasic.ExceptionYellow
  finaly 3
 try 4
+ catch ivanbasic.ExceptionYellow
  finaly 4
 try 5
- catch ivanbasic.ExceptionYellow
  finaly 5
 try 6
- catch ivanbasic.ExceptionYellow
+ catch ivanbasic.ExceptionPink
  finaly 6
 try 7
- catch ivanbasic.ExceptionYellow
  finaly 7
 try 8
- catch ivanbasic.ExceptionYellow
  finaly 8
 try 9
- catch ivanbasic.ExceptionYellow
  finaly 9
 
 ===============================================================
-Lesson#74 11.25.200.TryWithResources
+Lesson#75 11.25.200.TryWithResources
 ===============================================================
 Open monkey
 Try Block
@@ -805,88 +814,86 @@ Closed: 1
 Finally Block
 
 ===============================================================
-Lesson#75 11.25.300.DeclaringAssertions
+Lesson#76 11.25.300.DeclaringAssertions
 ===============================================================
 
 ===============================================================
-Lesson#76 11.25.400.WorkingWithDatesAndTimes
+Lesson#77 11.25.400.WorkingWithDatesAndTimes
 ===============================================================
 2022-10-06
-14:31:35.430550400
-2022-10-06T14:31:35.430550400
+20:55:46.947984100
+2022-10-06T20:55:46.948982400
 19.04.2020 21:23
 
 ===============================================================
-Lesson#77 11.27.100.Concurrency
+Lesson#78 11.27.100.Concurrency
 ===============================================================
 1 implementing interface Runnable
 2 extending class Thread
 Runnable r2
 3 Executors
 Runnable r3
-java.util.concurrent.ThreadPoolExecutor@1d548a08[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0]
-java.util.concurrent.Executors$FinalizableDelegatedExecutorService@16aa0a0a
+java.util.concurrent.ThreadPoolExecutor@2d9d4f9d[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0]
+java.util.concurrent.Executors$FinalizableDelegatedExecutorService@4034c28c
 shutdown Executors
 While  Executors
+sleep  10
+ivanbasic.ImlementedRunable@6c27990b
 sleep  20
+sleep  10
+sleep  10
 Thread[Thread-4,5,main]
-sleep  10
-ivanbasic.ImlementedRunable@44a6be93
-sleep  10
-ivanbasic.ImlementedRunable@44a6be93
-sleep  10
-ivanbasic.ImlementedRunable@44a6be93
+ivanbasic.ImlementedRunable@6c27990b
+ivanbasic.ImlementedRunable@6c27990b
+sleep  30
 sleep  30
 sleep  30
 sleep  50
-sleep  30
 service 1 while !isTerminated
-sleep  50
-service 2 while !isTerminated
 --- END ---
 
 ===============================================================
-Lesson#78 11.27.200.SubmitAndFuture
+Lesson#79 11.27.200.SubmitAndFuture
 ===============================================================
-java.util.concurrent.Executors$FinalizableDelegatedExecutorService@2d9d4f9d
-java.util.concurrent.FutureTask@23282c25[Not completed, task = java.util.concurrent.Executors$RunnableAdapter@4b168fa9[Wrapped task = ivanbasic.java_11_27_200_SubmitAndFuture$$Lambda$111/0x000000080014d040@1a84f40f]]
+java.util.concurrent.Executors$FinalizableDelegatedExecutorService@48524010
+java.util.concurrent.FutureTask@55a561cf[Not completed, task = java.util.concurrent.Executors$RunnableAdapter@258e2e41[Wrapped task = ivanbasic.java_11_27_200_SubmitAndFuture$$Lambda$117/0x0000000800160040@3d299e3]]
 service3 !-null,   shutdown
 
 ===============================================================
-Lesson#79 11.27.300.Synchronization
+Lesson#80 11.27.300.Synchronization
 ===============================================================
 lambda runable
-.................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................1
-..............................................................................................................................................................................................2
-.......................................................................................................................................................................................................................................................................................3
-...........................................................................................................................................................................................................................4
-..........................................................................................5
-.......................................................................6
-..............................................................................................................................................................................................................................................................................................................................................................................................7
-.8
-........................................................................................................................................................................................................................................................................................................................................................................................9
-10
-.
+.......................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................1
+...................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................2
+............................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................3
+......................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................4
+....................................5
+.................................6
+.....................................................7
+.............8
+...................9
+..........................................................................................................................................................................................................................................................10
+.......
 ===============================================================
-Lesson#80 11.27.400.UsingConcurrentCollections
-===============================================================
-
-===============================================================
-Lesson#81 11.27.500.WorkingWithParallelStreams
-===============================================================
-5 3 6 8 7 4 9 1 2
-Time: 0.322 seconds
-
-===============================================================
-Lesson#82 11.28.100.IOAbstract
+Lesson#81 11.27.400.UsingConcurrentCollections
 ===============================================================
 
 ===============================================================
-Lesson#83 11.28.200.IOConcrete
+Lesson#82 11.27.500.WorkingWithParallelStreams
+===============================================================
+6 7 8 3 9 2 4 5 1
+Time: 0.334 seconds
+
+===============================================================
+Lesson#83 11.28.100.IOAbstract
 ===============================================================
 
 ===============================================================
-Lesson#84 11.29.100.NIO2
+Lesson#84 11.28.200.IOConcrete
+===============================================================
+
+===============================================================
+Lesson#85 11.29.100.NIO2
 ===============================================================
 .git
 .gitignore
@@ -899,17 +906,17 @@ README.txt
 src
 
 ===============================================================
-Lesson#85 11.29.101.Recursively
+Lesson#86 11.29.101.Recursively
 ===============================================================
 src
 src\ivanbasic
 
 ===============================================================
-Lesson#86 11.30.100.JDBC
+Lesson#87 11.30.100.JDBC
 ===============================================================
 
 ===============================================================
-Lesson#87 11.31.100.Security
+Lesson#88 11.31.100.Security
 ===============================================================
 Limiting Accessibility: private fields instead of public
 Restricting Extensibility: final class
