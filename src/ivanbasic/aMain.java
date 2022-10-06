@@ -34,7 +34,7 @@ interface Lesson {
     void main();
 
     default void HeaderAndMain(int lessonCounter) {
-        String className = this.getClass().getName().replace("ivanbasic.dp_", "").replace("_", ".");
+        String className = this.getClass().getName().replace("ivanbasic.java_", "").replace("_", ".");
 
         System.out.println("");
         System.out.println("===============================================================");
