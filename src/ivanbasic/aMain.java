@@ -23,7 +23,7 @@ public class aMain {
                 }
                 lessonCounter++;
             } catch (final Exception e) {
-                // the current class is not the instance of demo interface
+                // the current class is not the instance of Lesson interface
             }
         }
     }
