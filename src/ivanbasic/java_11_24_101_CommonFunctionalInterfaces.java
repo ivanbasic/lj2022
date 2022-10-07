@@ -2,8 +2,18 @@ package ivanbasic;
 
 import java.util.Comparator;
 import java.util.List;
-import java.util.function.*;
+
+import java.util.function.BinaryOperator;
+import java.util.function.Consumer;
+import java.util.function.Predicate;
+import java.util.function.Supplier;
+import java.util.function.Function;
+import java.util.function.UnaryOperator;
+
 import java.util.stream.Collectors;
+
+import static java.lang.Math.*;
+
 
 public class java_11_24_101_CommonFunctionalInterfaces implements Lesson  {
     public void main() {
@@ -32,6 +42,8 @@ public class java_11_24_101_CommonFunctionalInterfaces implements Lesson  {
         // Function
         Function<Integer,String> functionInt2Str = (integer) -> "<"+integer+">";
 
+        // Unary operator
+        UnaryOperator<Integer> unarySquare = (integer) -> integer*integer;
 
 
         // -------------------------------------------------------------------------------------
@@ -57,6 +69,7 @@ public class java_11_24_101_CommonFunctionalInterfaces implements Lesson  {
         var toStr = integers.stream().map( functionInt2Str).collect(Collectors.toList());
         System.out.println("Function, map(). IntToStr="+toStr );
 
-
+        var toSquare = integers.stream().map( unarySquare).collect(Collectors.toList());
+        System.out.println("Unary operator, map, toSquare="+toSquare );
     }
 }
