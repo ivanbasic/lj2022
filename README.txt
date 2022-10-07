@@ -38,7 +38,7 @@ References:
  by Jeanne Boyarsky,  Scott Selikoff
  Chapters 01-11   
  
- OCP Oracle® Certified Professional Java® SE 11 Programmer II Study Guide Exam 1Z0-816 and Exam 1Z0-817
+ OCP OracleÂ® Certified Professional JavaÂ® SE 11 Programmer II Study Guide Exam 1Z0-816 and Exam 1Z0-817
  by Jeanne Boyarsky,  Scott Selikoff
  Chapters 01-11 are renamed as 21-31
  
