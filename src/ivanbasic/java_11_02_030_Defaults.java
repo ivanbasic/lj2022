@@ -1,6 +1,7 @@
 package ivanbasic;
 
 public class java_11_02_030_Defaults implements Lesson {
+
     static String classString;
     static int classInt;
 
