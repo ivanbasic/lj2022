@@ -32,10 +32,10 @@ Lesson#2 11.00.002.Version
 ===============================================================
 Lesson#3 11.01.001.WelcomeToJava
 ===============================================================
-random 0-9: 8
-java.utl.Date: Sat Oct 29 16:52:28 CEST 2022
+random 0-9: 9
+java.utl.Date: Tue Nov 01 13:37:03 CET 2022
 java.sql.Date: 1970-01-01
-ivanbasic.FieldsAndMethodsCanGoInEitherOrder@69a3d1d
+ivanbasic.FieldsAndMethodsCanGoInEitherOrder@86be70a
 
 ===============================================================
 Lesson#4 11.02.001.CreatingObjects
@@ -118,7 +118,7 @@ double
 ===============================================================
 Lesson#8 11.02.010.ReferenceTypes
 ===============================================================
-Sat Oct 29 16:52:28 CEST 2022
+Tue Nov 01 13:37:03 CET 2022
 How are you?
 null
 
@@ -153,7 +153,14 @@ Lesson#12 11.04.000.MakingDecisions
 4, -8, 12
 
 ===============================================================
-Lesson#13 11.05.010.Strings
+Lesson#13 11.04.010.BraekAndContinue
+===============================================================
+
+CONTINUE ON 3: 1 2 (skip the rest of current iteration) 4 5 6 7 8 9 10
+BREAK ON 3: 1 2 (Leave the loop)
+
+===============================================================
+Lesson#14 11.05.010.Strings
 ===============================================================
 01234567890123
 length=14
@@ -174,7 +181,7 @@ trim(str  )=СРЕДИНА
 strip(str  )=СРЕДИНА
 
 ===============================================================
-Lesson#14 11.05.020.StringBuilder
+Lesson#15 11.05.020.StringBuilder
 ===============================================================
 abcdefghijklmnopqrstuvwxyz
 
@@ -182,18 +189,18 @@ abc
 
 
 ===============================================================
-Lesson#15 11.05.030.TheStringPool
+Lesson#16 11.05.030.TheStringPool
 ===============================================================
 true
 
 ===============================================================
-Lesson#16 11.05.040.Arrays
+Lesson#17 11.05.040.Arrays
 ===============================================================
 [42, -55, 99]
 [[10, 20], [100, -200]]
 
 ===============================================================
-Lesson#17 11.05.041.ArraysRowsAndCols
+Lesson#18 11.05.041.ArraysRowsAndCols
 ===============================================================
 Declare and populate...
 Result
@@ -225,7 +232,7 @@ Sumiranje po kolonama
 =1380
 
 ===============================================================
-Lesson#18 11.05.050.ArrayList
+Lesson#19 11.05.050.ArrayList
 ===============================================================
 [0, 2, 4, 6, 8, 10, 12, 14, 16, 18, 20]
 [0, 2, 4, 6, 8, 10, 12, 14, 16, 18, 20]
@@ -237,7 +244,7 @@ Using Varargs to Create a List
 [one, two]
 
 ===============================================================
-Lesson#19 11.05.060.Sets
+Lesson#20 11.05.060.Sets
 ===============================================================
 Set of Integer's
 true
@@ -251,7 +258,7 @@ Set of Anything's
 true
 true
 true
-[ivanbasic.Anything@12c8a2c0, ivanbasic.Anything@a74868d, ivanbasic.Anything@7e0e6aa2]
+[ivanbasic.Anything@12c8a2c0, ivanbasic.Anything@7e0e6aa2, ivanbasic.Anything@365185bd]
 
 Set of Something's, overrides java.lang.Object.hashCode, overrides java.lang.Object.equals
 true
@@ -261,16 +268,16 @@ false
 [1, 2]
 
 ===============================================================
-Lesson#20 11.05.070.Maps
+Lesson#21 11.05.070.Maps
 ===============================================================
 koala bamboo
 cat bird
 cow grass
 {koala=bamboo, cat=bird, cow=grass}
-{ivanbasic.AnythingAgain@150c158=202, ivanbasic.AnythingAgain@2e3fc542=102}
+{ivanbasic.AnythingAgain@150c158=102, ivanbasic.AnythingAgain@4524411f=202}
 
 ===============================================================
-Lesson#21 11.06.010.Lambdas
+Lesson#22 11.06.010.Lambdas
 ===============================================================
 TraditionalSearch, print if Hopper
 kangaroo rabbit
@@ -286,14 +293,14 @@ LambdaSearchTwo, print if Hopper
 kangaroo rabbit
 
 ===============================================================
-Lesson#22 11.06.020.Predicate
+Lesson#23 11.06.020.Predicate
 ===============================================================
 fish me
 fish me
 fish me
 
 ===============================================================
-Lesson#23 11.06.030.Consumer
+Lesson#24 11.06.030.Consumer
 ===============================================================
 The Consumer functional interface: void accept(T t)
 1
@@ -307,21 +314,21 @@ accepting more *7, *8
 1344
 
 ===============================================================
-Lesson#24 11.06.040.Supplier
+Lesson#25 11.06.040.Supplier
 ===============================================================
-random #1 = 5
-random #2 = 3
-random #3 = 1
-random #4 = 6
-random #5 = 6
+random #1 = 3
+random #2 = 0
+random #3 = 0
+random #4 = 4
+random #5 = 3
 
 ===============================================================
-Lesson#25 11.06.050.Comparator
+Lesson#26 11.06.050.Comparator
 ===============================================================
 Compare 11 & 17 :-6
 
 ===============================================================
-Lesson#26 11.06.060.CallingAPIsWithLambdas
+Lesson#27 11.06.060.CallingAPIsWithLambdas
 ===============================================================
 List and Set declare a removeIf() method that takes a Predicate (boolean)
 [long ear, floppy, hoppy]
@@ -339,7 +346,7 @@ floppy
 hoppy
 
 ===============================================================
-Lesson#27 11.07.030.WorkingWithVarargs
+Lesson#28 11.07.030.WorkingWithVarargs
 ===============================================================
 walk(int start, int... nums), length of nums:
 0
@@ -348,7 +355,7 @@ walk(int start, int... nums), length of nums:
 2
 
 ===============================================================
-Lesson#28 11.07.050.PassingDataAmongMethods
+Lesson#29 11.07.050.PassingDataAmongMethods
 ===============================================================
 int       parInt	=1
 String    parString	=a
@@ -366,21 +373,21 @@ int[]     parArray	=[12345678, 2]
 SomeClass parClass	=9999999
 
 ===============================================================
-Lesson#29 11.07.070.OverloadingMethods
+Lesson#30 11.07.070.OverloadingMethods
 ===============================================================
 142
 ===============================================================
-Lesson#30 11.07.090.EncapsulatingData
+Lesson#31 11.07.090.EncapsulatingData
 ===============================================================
 Just private, getter & setter
 
 ===============================================================
-Lesson#31 11.08.010.This
+Lesson#32 11.08.010.This
 ===============================================================
 The color is desolate
 
 ===============================================================
-Lesson#32 11.08.020.Super
+Lesson#33 11.08.020.Super
 ===============================================================
 child doIt
 parent doIt
@@ -388,14 +395,14 @@ child size
 parent size
 
 ===============================================================
-Lesson#33 11.08.025.ConsCallsConsThis
+Lesson#34 11.08.025.ConsCallsConsThis
 ===============================================================
 Cons II 1 0
 CONS I
 Cons II 1 2
 
 ===============================================================
-Lesson#34 11.08.030.PrivateConstructor
+Lesson#35 11.08.030.PrivateConstructor
 ===============================================================
 Calling private constructor 789+AAAAAA
 ...from public cons
@@ -405,17 +412,17 @@ from (static) method:
 Calling private constructor 45+MN
 
 ===============================================================
-Lesson#35 11.08.035.SuperCons
+Lesson#36 11.08.035.SuperCons
 ===============================================================
 first
 second
 
 ===============================================================
-Lesson#36 11.08.100.ClassInitialization
+Lesson#37 11.08.100.ClassInitialization
 ===============================================================
 
 ===============================================================
-Lesson#37 11.08.110.InstanceInitialization
+Lesson#38 11.08.110.InstanceInitialization
 ===============================================================
 Creating new InstanceC extends InstanceB extends InstanceA
 Constructor, InstanceA
@@ -423,36 +430,36 @@ Constructor, InstanceB
 Constructor, InstanceC
 
 ===============================================================
-Lesson#38 11.08.500.OverridingMethod
+Lesson#39 11.08.500.OverridingMethod
 ===============================================================
 Number Of Humps = 1
 Number Of Humps = 2
 Number Of Humps = 2
 
 ===============================================================
-Lesson#39 11.08.510.OverridingGenericMethod
+Lesson#40 11.08.510.OverridingGenericMethod
 ===============================================================
 Anteater
 
 ===============================================================
-Lesson#40 11.08.520.GenericReturnTypes
+Lesson#41 11.08.520.GenericReturnTypes
 ===============================================================
 
 ===============================================================
-Lesson#41 11.08.530.RedeclaringPrivateMethods
+Lesson#42 11.08.530.RedeclaringPrivateMethods
 ===============================================================
 private doIt, PrivateAny.
 private doIt, PrivateRyan. A Separate and independent method. Not an overridden version.
 
 ===============================================================
-Lesson#42 11.08.540.HidingStaticMethods
+Lesson#43 11.08.540.HidingStaticMethods
 ===============================================================
 You can't mix static and non-static methods
 public static void doIt() Bear
 public static void doIt() Panda. >>Hiding<<. Tis is not considered an overridden method.
 
 ===============================================================
-Lesson#43 11.08.900.ReviewQuestions
+Lesson#44 11.08.900.ReviewQuestions
 ===============================================================
 50
 SpiderSpiderArthropod
@@ -465,32 +472,32 @@ Child method setName=Olivia
 Olivia Sophia
 
 
-Class1 c11 ivanbasic.Class1@7a36aefa
+Class1 c11 ivanbasic.Class1@17211155
 method doIt Class1
 instanceVariable Class1
 
-Class1 c12 ivanbasic.Class2@17211155
+Class1 c12 ivanbasic.Class2@b3d7190
 method doIt Class2
 instanceVariable Class1
 
-Class2 c22 ivanbasic.Class2@b3d7190
+Class2 c22 ivanbasic.Class2@5fdba6f9
 method doIt Class2
 instanceVariable Class2
 
 casting c22....
-Class1 c100 ivanbasic.Class2@b3d7190
+Class1 c100 ivanbasic.Class2@5fdba6f9
 method doIt Class2
 instanceVariable Class1
 
 
 ===============================================================
-Lesson#44 11.09.100.AbstractClasses
+Lesson#45 11.09.100.AbstractClasses
 ===============================================================
-Constructor AbstractSub0 ivanbasic.Concrete0@5fdba6f9
-Constructor AbstractSub0 ivanbasic.Concrete1@10d59286
+Constructor AbstractSub0 ivanbasic.Concrete0@10d59286
+Constructor AbstractSub0 ivanbasic.Concrete1@fe18270
 
 ===============================================================
-Lesson#45 11.09.200.Interfaces
+Lesson#46 11.09.200.Interfaces
 ===============================================================
 doIt is implemented.
 default method
@@ -499,15 +506,15 @@ static field of TheInterface
 interface ti instanceof class ChildOf? true
 
 ===============================================================
-Lesson#46 11.09.900.ReviewQuestions
+Lesson#47 11.09.900.ReviewQuestions
 ===============================================================
 
 ===============================================================
-Lesson#47 11.10.100.Exceptions
+Lesson#48 11.10.100.Exceptions
 ===============================================================
 
 ===============================================================
-Lesson#48 11.10.200.Exceptions
+Lesson#49 11.10.200.Exceptions
 ===============================================================
 try 2
 finally 2
@@ -523,7 +530,7 @@ This catch block is optional
 This finally block is optional
 
 ===============================================================
-Lesson#49 11.10.300.Exceptions
+Lesson#50 11.10.300.Exceptions
 ===============================================================
 Without trow
 1
@@ -542,7 +549,7 @@ In return line, -3
 Returned -3
 
 ===============================================================
-Lesson#50 11.11.100.Modules
+Lesson#51 11.11.100.Modules
 ===============================================================
 eclipse: project root >configure>create module-info.java
 
@@ -550,7 +557,7 @@ exports pckg (to  mdl)
 requires, requires transitive mdl
 
 ===============================================================
-Lesson#51 11.21.100.Enums
+Lesson#52 11.21.100.Enums
 ===============================================================
 SUMMER 2
 
@@ -561,30 +568,30 @@ FALL 3
 
 
 ===============================================================
-Lesson#52 11.21.110.UsingEnumsInSwitchStatements
+Lesson#53 11.21.110.UsingEnumsInSwitchStatements
 ===============================================================
 default
 
 ===============================================================
-Lesson#53 11.21.120.EnumConstructor
+Lesson#54 11.21.120.EnumConstructor
 ===============================================================
 the constructor argument list match the declaration-of-constants argument list.
 but Selikoff didn't explain why
 
 ===============================================================
-Lesson#54 11.21.200.NestedClasses4Flavors
+Lesson#55 11.21.200.NestedClasses4Flavors
 ===============================================================
-constructor Outer, str=out, class=ivanbasic.Outer@44a3ec6b
-constructor Inner, str=non-static-inn, class=ivanbasic.Outer$Inner@71623278
+constructor Outer, str=out, class=ivanbasic.Outer@71623278
 constructor Inner, str=non-static-inn, class=ivanbasic.Outer$Inner@768b970c
-constructor StaticInner, str=static inn, class=ivanbasic.Outer$StaticInner@5a4041cc
+constructor Inner, str=non-static-inn, class=ivanbasic.Outer$Inner@5a4041cc
 constructor StaticInner, str=static inn, class=ivanbasic.Outer$StaticInner@15b3e5b
+constructor StaticInner, str=static inn, class=ivanbasic.Outer$StaticInner@61ca2dfa
 Outer method doIt
-constructor Local, str=class-Local-in-method-doIt, class=ivanbasic.Outer$1Local@61ca2dfa
-constructor AbsInner, str=absin, class=ivanbasic.Outer$1@4b53f538
+constructor Local, str=class-Local-in-method-doIt, class=ivanbasic.Outer$1Local@4b53f538
+constructor AbsInner, str=absin, class=ivanbasic.Outer$1@134593bf
 
 ===============================================================
-Lesson#55 11.21.300.InterfaceDefaultMethod
+Lesson#56 11.21.300.InterfaceDefaultMethod
 ===============================================================
 cat as run, speed=7
 cat as walk, speed=7
@@ -592,12 +599,12 @@ cats inherited walk speed=5
 cats inherited run speed=10
 
 ===============================================================
-Lesson#56 11.21.400.InterfaceStaticMethod
+Lesson#57 11.21.400.InterfaceStaticMethod
 ===============================================================
 Bunny, hop height=8
 
 ===============================================================
-Lesson#57 11.21.500.InterfacePrivatecMethod
+Lesson#58 11.21.500.InterfacePrivatecMethod
 ===============================================================
 
 Monday
@@ -613,7 +620,7 @@ You have 5 hours left to make the appointment
 You're late!
 
 ===============================================================
-Lesson#58 11.21.600.InterfacePrivatecStaticMethod
+Lesson#59 11.21.600.InterfacePrivatecStaticMethod
 ===============================================================
 
 Inhale
@@ -629,12 +636,12 @@ Performing stroke: butterfly
 Exhale
 
 ===============================================================
-Lesson#59 11.21.700.IntroducingFunctionalProgramming
+Lesson#60 11.21.700.IntroducingFunctionalProgramming
 ===============================================================
 Same as chapter 6
 
 ===============================================================
-Lesson#60 11.22.100.Annotations
+Lesson#61 11.22.100.Annotations
 ===============================================================
 
 class annotations
@@ -648,51 +655,51 @@ all fields annotations
 @ivanbasic.Special() for private int[] ivanbasic.Tornado.t3
 
 ===============================================================
-Lesson#61 11.23.000.FunctionalInterface3Ways
+Lesson#62 11.23.000.FunctionalInterface3Ways
 ===============================================================
-1. using class      :ivanbasic.SpeakUsingClass@1ee807c6
-2. using lambda     :ivanbasic.java_11_23_000_FunctionalInterface3Ways$$Lambda$49/0x000000080012f840@76a4d6c
-3. method reference :ivanbasic.java_11_23_000_FunctionalInterface3Ways$$Lambda$50/0x000000080012fc40@517cd4b
+1. using class      :ivanbasic.SpeakUsingClass@76a4d6c
+2. using lambda     :ivanbasic.java_11_23_000_FunctionalInterface3Ways$$Lambda$49/0x000000080012e440@517cd4b
+3. method reference :ivanbasic.java_11_23_000_FunctionalInterface3Ways$$Lambda$50/0x000000080012f840@6cc7b4de
 
 ===============================================================
-Lesson#62 11.23.100.UsingMethodReferences4formats
+Lesson#63 11.23.100.UsingMethodReferences4formats
 ===============================================================
 Static methods
-ivanbasic.java_11_23_100_UsingMethodReferences4formats$$Lambda$51/0x000000080012f440@32cf48b7
-ivanbasic.java_11_23_100_UsingMethodReferences4formats$$Lambda$52/0x000000080012e840@5cdd8682
+ivanbasic.java_11_23_100_UsingMethodReferences4formats$$Lambda$51/0x000000080012fc40@679b62af
+ivanbasic.java_11_23_100_UsingMethodReferences4formats$$Lambda$52/0x000000080012f040@d6da883
 
 Instance methods on a particular instance
-ivanbasic.java_11_23_100_UsingMethodReferences4formats$$Lambda$53/0x000000080012ec40@45afc369
-ivanbasic.java_11_23_100_UsingMethodReferences4formats$$Lambda$54/0x000000080012e040@49c43f4e
+ivanbasic.java_11_23_100_UsingMethodReferences4formats$$Lambda$53/0x000000080012f440@799d4f69
+ivanbasic.java_11_23_100_UsingMethodReferences4formats$$Lambda$54/0x000000080012e840@290dbf45
 
 Instance methods on a parameter to be determined at runtime
-ivanbasic.java_11_23_100_UsingMethodReferences4formats$$Lambda$55/0x000000080012e440@12028586
-ivanbasic.java_11_23_100_UsingMethodReferences4formats$$Lambda$56/0x0000000800140040@69a10787
+ivanbasic.java_11_23_100_UsingMethodReferences4formats$$Lambda$55/0x000000080012ec40@17776a8
+ivanbasic.java_11_23_100_UsingMethodReferences4formats$$Lambda$56/0x0000000800140040@2d127a61
 
 Constructors
-ivanbasic.java_11_23_100_UsingMethodReferences4formats$$Lambda$57/0x0000000800140440@2bbaf4f0
-ivanbasic.java_11_23_100_UsingMethodReferences4formats$$Lambda$58/0x0000000800140840@70beb599
+ivanbasic.java_11_23_100_UsingMethodReferences4formats$$Lambda$57/0x0000000800140440@11c20519
+ivanbasic.java_11_23_100_UsingMethodReferences4formats$$Lambda$58/0x0000000800140840@4e41089d
 
 ===============================================================
-Lesson#63 11.23.200.UsingTheDiamondOperator
+Lesson#64 11.23.200.UsingTheDiamondOperator
 ===============================================================
 
 ===============================================================
-Lesson#64 11.23.300.ListAndLambda
+Lesson#65 11.23.300.ListAndLambda
 ===============================================================
 [1, 2, 3, 4, 5]
 [2, 4, 6, 8, 10]
 
 ===============================================================
-Lesson#65 11.23.400.WorkingWithGenerics
+Lesson#66 11.23.400.WorkingWithGenerics
 ===============================================================
 
 ===============================================================
-Lesson#66 11.23.500.Wildcard
+Lesson#67 11.23.500.Wildcard
 ===============================================================
 
 ===============================================================
-Lesson#67 11.24.100.BuiltInFunctionalInterfaces
+Lesson#68 11.24.100.BuiltInFunctionalInterfaces
 ===============================================================
 Annie
 true
@@ -702,14 +709,14 @@ true
 CHIRP
 CHIRP
 
-ivanbasic.java_11_24_100_BuiltInFunctionalInterfaces$$Lambda$60/0x0000000800141040@516be40f
-ivanbasic.java_11_24_100_BuiltInFunctionalInterfaces$$Lambda$64/0x0000000800147c40@3c0a50da
-ivanbasic.java_11_24_100_BuiltInFunctionalInterfaces$$Lambda$66/0x0000000800147440@646be2c3
-ivanbasic.java_11_24_100_BuiltInFunctionalInterfaces$$Lambda$68/0x0000000800146c40@797badd3
-ivanbasic.java_11_24_100_BuiltInFunctionalInterfaces$$Lambda$70/0x0000000800146440@77be656f
+ivanbasic.java_11_24_100_BuiltInFunctionalInterfaces$$Lambda$60/0x0000000800141040@3c0a50da
+ivanbasic.java_11_24_100_BuiltInFunctionalInterfaces$$Lambda$64/0x0000000800147c40@646be2c3
+ivanbasic.java_11_24_100_BuiltInFunctionalInterfaces$$Lambda$66/0x0000000800147440@797badd3
+ivanbasic.java_11_24_100_BuiltInFunctionalInterfaces$$Lambda$68/0x0000000800146c40@77be656f
+ivanbasic.java_11_24_100_BuiltInFunctionalInterfaces$$Lambda$70/0x0000000800146440@19dc67c2
 
 ===============================================================
-Lesson#68 11.24.101.CommonFunctionalInterfaces
+Lesson#69 11.24.101.CommonFunctionalInterfaces
 ===============================================================
 integers=[10, 7, 15, 3, 30, 4, 40, 15, 100]
 
@@ -722,7 +729,7 @@ Function, map(). IntToStr=[<10>, <7>, <15>, <3>, <30>, <4>, <40>, <15>, <100>]
 Unary operator, map, toSquare=[100, 49, 225, 9, 900, 16, 1600, 225, 10000]
 
 ===============================================================
-Lesson#69 11.24.200.ReturningAnOptional
+Lesson#70 11.24.200.ReturningAnOptional
 ===============================================================
 false
 true
@@ -736,22 +743,22 @@ op1: 23
 op2 is empty
 
 ===============================================================
-Lesson#70 11.24.300.FiniteStreams
+Lesson#71 11.24.300.FiniteStreams
 ===============================================================
-java.util.stream.ReferencePipeline$Head@b7f23d9
 java.util.stream.ReferencePipeline$Head@61d47554
 java.util.stream.ReferencePipeline$Head@69b794e2
 java.util.stream.ReferencePipeline$Head@3f200884
 java.util.stream.ReferencePipeline$Head@4d339552
+java.util.stream.ReferencePipeline$Head@f0f2775
 
 ===============================================================
-Lesson#71 11.24.400.InfiniteStreams
+Lesson#72 11.24.400.InfiniteStreams
 ===============================================================
 1 3 5 7 9 11 13 15 17 19 21 23 25 27 29 31 33 35 37 39 41 43 45 47 49
 2 4 6 8 10 12 14 16 18 20 22 24 26 28 30 32 34 36 38 40 42 44 46 48 50
 
 ===============================================================
-Lesson#72 11.24.500.UsingCommonTerminalOperations
+Lesson#73 11.24.500.UsingCommonTerminalOperations
 ===============================================================
 FINITY
 forEach: 1 3 5 7 9 11 13 15 17 19 21 23 25 27 29 31 33 35 37 39 41 43 45 47 49
@@ -772,16 +779,16 @@ skip limit forEach : 7 9 11 13
 end
 
 ===============================================================
-Lesson#73 11.24.600.PrimitiveStreams
+Lesson#74 11.24.600.PrimitiveStreams
 ===============================================================
 intStream.average()=4.5
 
 ===============================================================
-Lesson#74 11.24.700.AdvancedStreamPipelineConcepts
+Lesson#75 11.24.700.AdvancedStreamPipelineConcepts
 ===============================================================
 
 ===============================================================
-Lesson#75 11.25.100.Exceptions
+Lesson#76 11.25.100.Exceptions
 ===============================================================
 try 1
  catch ivanbasic.ExceptionYellow
@@ -790,27 +797,26 @@ try 2
  catch ivanbasic.ExceptionYellow
  finaly 2
 try 3
- catch ivanbasic.ExceptionYellow
  finaly 3
 try 4
+ catch ivanbasic.ExceptionPink
  finaly 4
 try 5
  catch ivanbasic.ExceptionYellow
  finaly 5
 try 6
- catch ivanbasic.ExceptionYellow
  finaly 6
 try 7
- catch ivanbasic.ExceptionYellow
+ catch ivanbasic.ExceptionPink
  finaly 7
 try 8
+ catch ivanbasic.ExceptionYellow
  finaly 8
 try 9
- catch ivanbasic.ExceptionYellow
  finaly 9
 
 ===============================================================
-Lesson#76 11.25.200.TryWithResources
+Lesson#77 11.25.200.TryWithResources
 ===============================================================
 Open monkey
 Try Block
@@ -828,37 +834,37 @@ Closed: 1
 Finally Block
 
 ===============================================================
-Lesson#77 11.25.300.DeclaringAssertions
+Lesson#78 11.25.300.DeclaringAssertions
 ===============================================================
 
 ===============================================================
-Lesson#78 11.25.400.WorkingWithDatesAndTimes
+Lesson#79 11.25.400.WorkingWithDatesAndTimes
 ===============================================================
-2022-10-29
-16:52:28.509673200
-2022-10-29T16:52:28.510675100
+2022-11-01
+13:37:03.384449400
+2022-11-01T13:37:03.385451
 19.04.2020 21:23
 
 ===============================================================
-Lesson#79 11.27.100.Concurrency
+Lesson#80 11.27.100.Concurrency
 ===============================================================
 1 implementing interface Runnable
-2 extending class Thread
 Runnable r2
-3 Executors
+2 extending class Thread
 Runnable r3
-java.util.concurrent.ThreadPoolExecutor@358c99f5[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0]
-java.util.concurrent.Executors$FinalizableDelegatedExecutorService@3ee0fea4
+3 Executors
+java.util.concurrent.ThreadPoolExecutor@3ee0fea4[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0]
+java.util.concurrent.Executors$FinalizableDelegatedExecutorService@48524010
 shutdown Executors
 While  Executors
 sleep  10
-ivanbasic.ImlementedRunable@486d0f61
+ivanbasic.ImlementedRunable@56eca0e6
+sleep  10
+sleep  10
+ivanbasic.ImlementedRunable@56eca0e6
 sleep  20
-sleep  10
-ivanbasic.ImlementedRunable@486d0f61
-sleep  10
 Thread[Thread-4,5,main]
-ivanbasic.ImlementedRunable@486d0f61
+ivanbasic.ImlementedRunable@56eca0e6
 sleep  30
 sleep  30
 sleep  30
@@ -867,47 +873,47 @@ service 1 while !isTerminated
 --- END ---
 
 ===============================================================
-Lesson#80 11.27.200.SubmitAndFuture
+Lesson#81 11.27.200.SubmitAndFuture
 ===============================================================
-java.util.concurrent.Executors$FinalizableDelegatedExecutorService@6b419da
-java.util.concurrent.FutureTask@21507a04[Not completed, task = java.util.concurrent.Executors$RunnableAdapter@78b1cc93[Wrapped task = ivanbasic.java_11_27_200_SubmitAndFuture$$Lambda$121/0x0000000800169040@6646153]]
+java.util.concurrent.Executors$FinalizableDelegatedExecutorService@3b2da18f
+java.util.concurrent.FutureTask@143640d5[Not completed, task = java.util.concurrent.Executors$RunnableAdapter@6646153[Wrapped task = ivanbasic.java_11_27_200_SubmitAndFuture$$Lambda$121/0x0000000800169040@21507a04]]
 service3 !-null,   shutdown
 
 ===============================================================
-Lesson#81 11.27.300.Synchronization
+Lesson#82 11.27.300.Synchronization
 ===============================================================
 lambda runable
-1
-................................................................................2
-............................................3
-........................................4
-...................................5
-..........................................................................................................6
-.........7
-...8
-...........................9
-...........10
-.
+...................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................1
+...................................................2
+.........................................................................................................................3
+................................................................................4
+..................................................................................................................................................5
+6
+....................................................................................7
+....................8
+...............9
+................10
+...
 ===============================================================
-Lesson#82 11.27.400.UsingConcurrentCollections
-===============================================================
-
-===============================================================
-Lesson#83 11.27.500.WorkingWithParallelStreams
-===============================================================
-8 5 6 3 9 7 4 1 2
-Time: 0.342 seconds
-
-===============================================================
-Lesson#84 11.28.100.IOAbstract
+Lesson#83 11.27.400.UsingConcurrentCollections
 ===============================================================
 
 ===============================================================
-Lesson#85 11.28.200.IOConcrete
+Lesson#84 11.27.500.WorkingWithParallelStreams
+===============================================================
+8 3 6 5 4 7 9 2 1
+Time: 0.336 seconds
+
+===============================================================
+Lesson#85 11.28.100.IOAbstract
 ===============================================================
 
 ===============================================================
-Lesson#86 11.29.100.NIO2
+Lesson#86 11.28.200.IOConcrete
+===============================================================
+
+===============================================================
+Lesson#87 11.29.100.NIO2
 ===============================================================
 .git
 .gitignore
@@ -920,17 +926,17 @@ README.txt
 src
 
 ===============================================================
-Lesson#87 11.29.101.Recursively
+Lesson#88 11.29.101.Recursively
 ===============================================================
 src
 src\ivanbasic
 
 ===============================================================
-Lesson#88 11.30.100.JDBC
+Lesson#89 11.30.100.JDBC
 ===============================================================
 
 ===============================================================
-Lesson#89 11.31.100.Security
+Lesson#90 11.31.100.Security
 ===============================================================
 Limiting Accessibility: private fields instead of public
 Restricting Extensibility: final class
@@ -940,4 +946,3 @@ Sql Injection, Whitelist vs. Blacklist...
 Confidential Information...
 
 Process finished with exit code 0
-
