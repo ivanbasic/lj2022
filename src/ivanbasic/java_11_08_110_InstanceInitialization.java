@@ -11,16 +11,16 @@ public class java_11_08_110_InstanceInitialization implements Lesson {
 }
 class InstanceA   {
 	public InstanceA() {
-		System.out.println("Constructor, InstanceA" );
+		System.out.println("Lesson InstanceInitialization, Constructor, InstanceA" );
 	}
 }
 class InstanceB extends InstanceA   {
 	public InstanceB() {
-		System.out.println("Constructor, InstanceB" );
+		System.out.println("Lesson InstanceInitialization, Constructor, InstanceB" );
 	}
 }
 class InstanceC extends InstanceB   {
 	public InstanceC() {
-		System.out.println("Constructor, InstanceC" );
+		System.out.println("Lesson InstanceInitialization, Constructor, InstanceC" );
 	}
 }

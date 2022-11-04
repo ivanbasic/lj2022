@@ -15,7 +15,7 @@ public class java_11_08_035_SuperCons implements Lesson {
 
 class First {
     First() {
-        System.out.println("first()");
+        System.out.println("Lesson SuperCons, first()");
     }
 
     First(int i) {
@@ -26,7 +26,7 @@ class First {
 class Second extends First {
     public Second() {
         //super();  //commented or not, it's the same.
-        System.out.println("second()");
+        System.out.println("Lesson SuperCons, second()");
     }
 
     public Second(int i) {
