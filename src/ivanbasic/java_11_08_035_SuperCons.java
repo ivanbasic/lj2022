@@ -17,7 +17,7 @@ class First {
 }
 class Second extends First {
 	public Second() {
-		super();
+		//super();  //commented or not, it's the same.
 		System.out.println("second");		
 	}
 	
