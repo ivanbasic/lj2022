@@ -1,0 +1,38 @@
+pitanja iz 2021-ve
+
+java:
+
+3. Konstruktor. Da li je ovo ispravno:
+   class ClassA { ClassA(String string) {}}
+   class ClassB extends ClassA {}
+   Odgovor: Nije. Klasa B nema konstruktor
+
+4. Tip int. Koji je najveci integer kao stepen broja 2?
+   Odogovor: 2^31 -1
+   Objasnjenje: int je smesten u 32 bita (2^32), manje: pola su negativni, manje: jedna nula,
+   ostane pozitivnih 2^31-1
+
+5. Set, List, Map. razlike
+
+6. Try komanda
+
+7. String StringBuilder. razlike
+
+8. @FunctionalInterface Annotation
+   Kao odgovor:nije obavezna ali se moze staviti za sve FI/lambde
+
+9. Anotacija @Override
+
+10. Jav je ok, jedno dodatno pitanje
+
+11. default metod u interfejsu:
+   Ako imamo vise puta koristen interfejs,
+   a zelimo novu zajednicku metodu za sve postojece implementacije interfejsa?
+   Odgovor: Iskoristiti default metod interfejsa
+
+12. pogledaj ??? exception handle, java je bila odlicna.
+
+
+sql
+13. Koja funkcija u sql-u prikazuje prvu ne-null vrednost?
+    Odgovor: COALESCE
